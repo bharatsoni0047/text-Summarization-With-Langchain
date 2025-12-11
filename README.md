@@ -1,4 +1,4 @@
-🚀 Smart URL Summarizer — by Bharat
+#🚀 Smart URL Summarizer — by Bharat
 
 A powerful Streamlit app that summarizes YouTube videos and websites into clean, easy-to-read text.
 It uses Groq Llama models + Whisper for fast transcription and high-quality summaries.
