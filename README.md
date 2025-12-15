@@ -73,3 +73,36 @@ Exploring documentation pages
 Research and content analysis
 
 Learning from online resources efficiently
+
+
+>>>>> Challenges I Faced & How I Solved Them:-
+
+Some websites were not readable (dynamic / JS-heavy pages)
+→ Used fallback logic and allowed the chatbot to activate even when content was missing.
+
+Wikipedia links behaved differently (search, main page, article URLs)
+→ Added custom Wikipedia URL parsing and used WikipediaLoader instead of normal loaders.
+
+Chatbot said “URL not provided” even after entering a website
+→ Passed the website URL explicitly into the system prompt instead of assuming context.
+
+Bot gave random or generic answers when content was empty
+→ Added a content validation flag and controlled fallback responses.
+
+Chatbot activated but behaved inconsistently
+→ Added an automatic first AI message to anchor the conversation context.
+
+Language switching issues (English vs Hindi)
+→ Enforced strict language rules based on user input language.
+
+Streamlit app went to sleep on deployment
+→ Understood cold-start behavior of Streamlit Cloud and accepted it as expected.
+
+Users were confused when a website couldn’t be analyzed
+→ Displayed a clear instruction message instead of error or guessing.
+
+Prompt became too complex and confusing
+→ Simplified and structured the prompt with clear rules and priorities.
+
+Maintaining chat memory across messages
+→ Used StreamlitChatMessageHistory with RunnableWithMessageHistory.
