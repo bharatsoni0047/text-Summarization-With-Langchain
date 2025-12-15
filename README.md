@@ -1,27 +1,70 @@
-#🚀 Smart URL Summarizer — by Bharat
+🚀 AI Website Analyzer — by Bharat
 
-A powerful Streamlit app that summarizes YouTube videos and websites into clean, easy-to-read text.
-It uses Groq Llama models + Whisper for fast transcription and high-quality summaries.
-Supports English & Hindi, multiple summary styles, and custom length options.
+AI Website Analyzer is a smart, AI-powered Streamlit application that analyzes and summarizes websites, articles, and documentation pages into clear, structured, and easy-to-understand text.
+The app is built to handle real-world websites with dynamic content, smart fallbacks, and language-aware responses.
 
-🔗 Live Demo:
-https://website-and-yt-video-summarization-with-langchain-by-bharat.streamlit.app/
+It uses Groq Llama models for ultra-fast inference and LangChain for prompt orchestration, making it ideal for learning, research, and quick understanding of online content.
 
-🔧 Tech Stack
-✅What I Built
+🔗 Live Demo
+https://text-summarization-with-langchain-for-website-by-bharat.streamlit.app/
 
-Developed a full YouTube → Whisper → LLM summarization pipeline.
+✨ Key Features
 
-Added webpage text extraction using Unstructured loader.
+🌐 Website & Article Analysis
+Extracts readable content from webpages using Unstructured loaders.
 
-Integrated Groq Llama models for ultra-fast, high-quality summaries.
+⚡ Ultra-Fast AI Responses
+Powered by Groq Llama models for low-latency, high-quality answers.
 
-Built a clean Streamlit UI with dynamic summary length options.
+🧠 Interactive Website Chatbot
+Ask questions directly about the loaded website content.
 
-Added Hindi + English summarization modes.
+🌍 Multilingual Support
+Supports English and Hindi, automatically matching user language.
 
-Implemented retry logic, error handling & secure API usage.
+🧩 Smart Fallback Logic
+If a website cannot be fully read, the chatbot still activates with clear guidance.
 
-Designed custom branding with hidden watermark protection.
+🎛️ Dynamic & User-Friendly UI
+Clean Streamlit interface with custom styling and branding protection.
 
-Deployed the final application on Streamlit Cloud.
+🛡️ Robust Error Handling
+Gracefully handles dynamic, restricted, or partially readable websites.
+
+🧰 Tech Stack
+
+Framework: Streamlit
+
+LLMs: Groq (Llama models)
+
+Prompt Orchestration: LangChain
+
+Web Content Extraction: Unstructured Loader
+
+Backend Language: Python
+
+Deployment: Streamlit Cloud
+
+🛠️ What I Built
+
+A dynamic website content extraction pipeline
+
+Context-aware chatbot that remembers the current website
+
+Fast and reliable AI responses using Groq LLMs
+
+Language-aware reply system (English & Hindi)
+
+Secure API handling via Streamlit secrets
+
+Production-ready deployment on Streamlit Cloud
+
+📌 Use Cases
+
+Understanding long articles quickly
+
+Exploring documentation pages
+
+Research and content analysis
+
+Learning from online resources efficiently
