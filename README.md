@@ -10,7 +10,7 @@ It uses Groq Llama models for ultra-fast inference and LangChain for prompt orch
 https://text-summarization-with-langchain-for-website-by-bharat.streamlit.app/
 
 
-✨ Key Features
+>>>>> Key Features
 
 🌐 Website & Article Analysis
 Extracts readable content from webpages using Unstructured loaders.
@@ -34,7 +34,7 @@ Clean Streamlit interface with custom styling and branding protection.
 Gracefully handles dynamic, restricted, or partially readable websites.
 
 
-🧰 Tech Stack
+>>>>> Tech Stack
 
 Framework: Streamlit
 
@@ -49,7 +49,7 @@ Backend Language: Python
 Deployment: Streamlit Cloud
 
 
-🛠️ What I Built
+ >>>>>What I Built
 
 A dynamic website content extraction pipeline
 
@@ -64,7 +64,7 @@ Secure API handling via Streamlit secrets
 Production-ready deployment on Streamlit Cloud
 
 
-📌 Use Cases
+>>>>> Use Cases
 
 Understanding long articles quickly
 
