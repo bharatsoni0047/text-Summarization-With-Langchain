@@ -5,8 +5,10 @@ The app is built to handle real-world websites with dynamic content, smart fallb
 
 It uses Groq Llama models for ultra-fast inference and LangChain for prompt orchestration, making it ideal for learning, research, and quick understanding of online content.
 
+
 🔗 Live Demo
 https://text-summarization-with-langchain-for-website-by-bharat.streamlit.app/
+
 
 ✨ Key Features
 
@@ -31,6 +33,7 @@ Clean Streamlit interface with custom styling and branding protection.
 🛡️ Robust Error Handling
 Gracefully handles dynamic, restricted, or partially readable websites.
 
+
 🧰 Tech Stack
 
 Framework: Streamlit
@@ -45,6 +48,7 @@ Backend Language: Python
 
 Deployment: Streamlit Cloud
 
+
 🛠️ What I Built
 
 A dynamic website content extraction pipeline
@@ -58,6 +62,7 @@ Language-aware reply system (English & Hindi)
 Secure API handling via Streamlit secrets
 
 Production-ready deployment on Streamlit Cloud
+
 
 📌 Use Cases
 
